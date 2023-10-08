@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(158, 169, 180);
+    height: 80px;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.box-wrap{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 85px;
+}
+.logo img{
+    height: 60px;
+    width: 150px;
+    
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    padding: 15px 20px;
+    font-size: 18px;
+    display: block;
+    font-weight: 500;
+    transition: 1.9s;
+}
+.loging-menu{
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+    
+}
+.menu ul li a:hover {
+    background-color: #fff;
+    border-radius: 20px;
+}
+.loging-menu a{
+    
+    text-decoration: none;
+    
+    transition: .9s;
+    
+}
+.loging-menu a:hover{
+    background-color: #23073b;
+    color: #fff;
+    opacity: 4;
+}
+
+/*  =====================
+    Slider CSS start Here
+    =====================
+*/
+.slider-area {
+    background: url('./img/pexels-walid-ahmad-847402.jpg');
+    height: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.slide-wraper {
+    padding: 100px;
+    text-align: center;
+}
+.slide-wraper h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: red;
+    font-family: cursive;
+}
+    .slide-wraper p {
+        font-size: 20px;
+        font-weight: 500;
+        color: #f9f9f9;
+    }
+    button.slide-button {
+        padding: 10px 25px;
+        background: none;
+        font-size: 20px;
+        border: 1px solid #1A355B;
+        border-radius: 5px;
+        font-family: cursive;
+        transition: .9s;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    .slide-button a{
+        text-decoration: none;
+        color: #46e3db;
+        
+    }
+    button.slide-button:hover {background-color: #ffffff;
+       
+    }
+
+
+    /* *  =====================
+    blog CSS start Here
+    =====================
+    */ 
+    .blog-area {
+        padding: 80px 0;
+    }
+
+    .section-title {
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+    }
+    .section-title h1 {
+        font-size: 45px;
+        font-weight: 500;
+        font-family: cursive;
+        margin: 0;
+        padding: 20px 0;
+    }
+    .section-title p {
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+    
+    .blogs, .services {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .single-blog, .single-service {
+        width: 23%;
+    }
+    .single-blog img, .single-service img {
+        width: 100%;
+    }
+    
+    .blog-meta h2 {
+        margin: 0;
+        padding: 10px 0;
+        font-family: cursive;
+    }
+    .blog-meta p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    button.blog-button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: .9s;
+    }
+    
+    button.blog-button:hover {
+        background-color: #0caca4;
+        color: #fff;
+    }
+
+    /* *  =====================
+    about CSS start Here
+    =====================
+*/ 
+    .about-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .about-left {
+        width: 45%;
+    }
+    
+    .about-right {
+        width: 45%;
+    }
+    
+    .about-left img {
+        width: 100%;
+    }
+    
+    .about-right h2 {
+        font-size: 45px;
+        font-family: cursive;
+        margin: 0;
+    }
+    
+    .about-right p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .about-area {
+        background-color: #f3f3f3;
+        padding: 100px 0;
+    }
+    
+    .service-area {
+        padding: 80px 0;
+    }
+    
+    
+    .footer-area {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #f3f3f3;
+        padding: 30px 0;
+    }    
