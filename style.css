@@ -5,6 +5,8 @@
 .header{
     background-color: rgb(158, 169, 180);
     height: 80px;
+    position: sticky;
+    top: 0;
 }
 .container{
     width: 85%;
@@ -207,12 +209,143 @@
     .service-area {
         padding: 80px 0;
     }
-    
-    
-    .footer-area {
+    /*  =====================
+    newsletter CSS start Here
+    =====================
+*/ 
+    .newsletter-area{
+        background: url(./img/pexels-gabii-fernandez-16616460.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        z-index: 1;
+    }
+    .newsletter-wrapper h2{
+        font-size: 50px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 100px;
         text-align: center;
-        font-size: 20px;
-        font-weight: 600;
-        background-color: #f3f3f3;
-        padding: 30px 0;
-    }    
+        margin-top:50px;
+    }
+    .newsletter-area::after{
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        background: #000;
+        height: 100%;
+        width: 100%;
+        opacity: .6;
+        z-index: -1;
+    }
+    .newsletter-wrapper {
+        position: absolute;
+        z-index: 2;
+        color: #fff;
+        height: 100%;
+        width: 1178px;
+    }
+    
+/*  =====================
+    form CSS start Here
+    =====================
+*/ 
+.form{
+    background: url(./img/imgg/pexels-yury-gargay-14471495.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+.container{}
+.form-wrapper form{
+    width: 500px;
+}
+.form-wrapper input, .form-wrapper textarea{
+    display: block;
+    width: 400px;
+    padding: 11px 18px;
+    margin: 10px 0;
+    background: none;
+    border: 2px solid white;
+    border-radius: 7px;
+    
+   
+}
+#pop{
+    color: #f6f6f6;
+    font-size: 15px;
+    text-align: center;
+    
+    
+}
+
+.form-wrapper{
+    margin: 0 auto;
+    width: 425px;
+}
+::placeholder{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.hov{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition: .7s;
+}
+.hov:hover{
+    background-color: #62cdf1;
+}
+
+/*  =====================
+    footer services CSS start Here
+    =====================
+*/ 
+.footer-services{
+    background-color: rgb(186, 188, 190);
+}
+.our-services{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.single-footer-top ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.single-footer-top ul li a{
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    display: block;
+}
+..single-footer-top ul li{
+    padding: 6px 0;
+}
+.single-footer-top h2{
+    font-size: 34px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.footer-area {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #f3f3f3;
+    padding: 30px 0;
+}    
